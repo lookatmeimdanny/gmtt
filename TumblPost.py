@@ -9,7 +9,6 @@ class TumblPost:
         self.titleStr = titleStr
         self.bodyStr = bodyStr
 
-<<<<<<< HEAD
         self.blogName = "lookatmeimdanny"
         self.state = "draft"
 =======
@@ -28,7 +27,6 @@ class TumblPost:
 
         t = Tumblpy(OAUTH_KEY,OAUTH_SECRET,
             OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
->>>>>>> 89916ec559357dd5138ec03d9b9f62c5d8a3b690
 
     def PostToTumblr( self ):
         credentials = json.loads( open( 'TumblCreds.json', 'r' ).read() )
