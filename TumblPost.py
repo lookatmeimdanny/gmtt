@@ -11,7 +11,7 @@ class TumblPost:
 
         self.blogName = "lookatmeimdanny"
         self.state = "draft"
-=======
+
     def PostToTumblr( self ):
 
         #get creds
